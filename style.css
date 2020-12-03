@@ -113,3 +113,86 @@ body {
   background: transparent;
   color: #2c251e;
 }
+
+/* products */
+
+.products {
+  padding: 60px 0;
+}
+
+.section-title h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 75px;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+
+.products-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-column-gap: 25px;
+  grid-row-gap: 30px;
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-cart-btn {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  background: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  letter-spacing: 3px;
+  font-weight: bold;
+  transition: all 0.3s linear;
+  transform: translateX(101%);
+  cursor: pointer;
+}
+
+.product-cart-btn:hover {
+  background: black;
+  color: white;
+}
+
+.fa-shopping-cart {
+  margin-right: 0.5rem;
+}
+
+.img-container:hover .product-cart-btn {
+  transform: translateX(0);
+}
+
+.product-img {
+  display: block;
+  width: 100%;
+  min-height: 190px;
+  transition: all 0.3s linear;
+}
+
+.img-container:hover .product-img {
+  opacity: 0.5;
+}
+
+.product h3 {
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-top: 15px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.product h4 {
+  margin-top: 10px;
+  letter-spacing: 3px;
+  color: #2c251e;
+  text-align: center;
+}
