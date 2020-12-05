@@ -176,6 +176,8 @@ body {
   width: 100%;
   min-height: 190px;
   transition: all 0.3s linear;
+  width: 200px;
+  height: 200px;
 }
 
 .img-container:hover .product-img {
